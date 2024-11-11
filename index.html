@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Olá, sou Arthur Lacerda, um jovem programador entrando nesse incrível mundo da programação. Tenho experiência em HTML, CSS, JavaScript. Estou animado para contribuir com projetos desafiadores e colaborar com outros profissionais da área, sempre buscando evoluir e crescer no campo da programação.</p>
+    </section>
+
+   <!-- Seção Projetos -->
+    <section id="projetos">
+        <h2>Projetos</h2>
+
+        <!-- Projeto 1 -->
+        <div class="projeto">
+            <img src="prejeto 1.png" alt="Projeto 1">
+            <h3>Projeto 1</h3>
+            <p>Projeto sobre as causas e consequências das queimadas. Utilizando HTML e CSS, foi criado um site informativo que explora os impactos ambientais das queimadas no Brasil.</p>
+            <a href="https://arthurlacerdaa.github.io/queimadas/" target="_blank">
+                <button class="ver-projeto-btn">Ver Projeto</button>
+            </a>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="projeto">
+            <img src="prejeto 2.png" alt="Projeto 2">
+            <h3>Projeto 2</h3>
+            <p>Projeto dedicado ao meu cantor favorito, contendo seus álbuns, músicas e contatos. As linguagens utilizadas foram HTML e CSS.</p>
+            <a href="https://arthurlacerdaa.github.io/banda/" target="_blank">
+                <button class="ver-projeto-btn">Ver Projeto</button>
+            </a>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="projeto">
+            <img src="prejeto 3.png" alt="Projeto 3">
+            <h3>Projeto 3</h3>
+            <p>Projeto de um conversor de temperatura. As linguagens utilizadas foram HTML, CSS e JavaScript.</p>
+            <a href="https://arthurlacerdaa.github.io/Conversor/" target="_blank">
+                <button class="ver-projeto-btn">Ver Projeto</button>
+            </a>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div class="projeto">
+            <img src="prejeto 4.png" alt="Projeto 4">
+            <h3>Projeto 4</h3>
+            <p>Prejeto de um relógio digital, desenvolvido utilizando HTML, CSS e JavaScript.</p>
+            <a href="https://arthurlacerdaa.github.io/relogio-digital/" target="_blank">
+                <button class="ver-projeto-btn">Ver Projeto</button>
+            </a>
+        </div>
+
+        <!-- Projeto 5 -->
+        <div class="projeto">
+            <img src="prejeto 5.png" alt="Projeto 5">
+            <h3>Projeto 5</h3>
+            <p>Projeto de um contador de caracteres, desenvolvido utilizando HTML, CSS e JavaScript.</p>
+            <a href="https://arthurlacerdaa.github.io/contador/" target="_blank">
+                <button class="ver-projeto-btn">Ver Projeto</button>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <!-- Campo Nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <!-- Campo E-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <!-- Campo Assunto -->
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+    
+            <!-- Campo Mensagem -->
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+            <!-- Botão de Enviar -->
+            <button type="submit">Enviar</button>
+        </form>
+    
+        <!-- Mensagens de Sucesso e Erro -->
+        <div id="mensagem-sucesso" style="display:none; color: green;">Mensagem enviada com sucesso!</div>
+        <div id="mensagem-erro" style="display:none; color: red;">Por favor, preencha todos os campos corretamente!</div>
+    </section>
+
+    <!-- Redes Sociais -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/arthurdlacerda/" target="_blank" title="LinkedIn">
+                <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://github.com/ArthurLacerdaa" target="_blank" title="GitHub">
+                <img src="git.png" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/arthurdlacerda/" target="_blank" title="Instagram">
+                <img src="insta.png" alt="Instagram" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
